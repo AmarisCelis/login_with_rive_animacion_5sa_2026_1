@@ -1,4 +1,7 @@
 # 🐻✨ Interactive Rive Animated Login Screen
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![Rive](https://img.shields.io/badge/Rive-Animation-black?style=for-the-badge)
 
 Welcome to the **Interactive Animated Login Screen**! This project transforms a standard, boring login form into an engaging and dynamic user experience. By integrating a reactive 2D character, the UI responds in real-time to the user's input, making the authentication process fun and highly interactive.
 
@@ -59,7 +62,9 @@ The project maintains a clean and straightforward architecture. Here are the mai
 >  ┗ 📜 `main.dart`
 
 ### 📝 File Deep-Dive
-
+<details>
+  <summary>🔍 <b>Click here for an in-depth explanation of the files</b></summary>
+  
 1. **`lib/main.dart`**
    * This is the entry point of the application.
    * It initializes the `MaterialApp`, sets up the global `ThemeData` (using a deep purple seed color), and defines `LoginScreen` as the home widget.
@@ -69,6 +74,9 @@ The project maintains a clean and straightforward architecture. Here are the mai
    * **Animation Initialization:** Uses `RiveAnimation.asset` to load `animated_login_bear.riv` and binds the `StateMachineController` during the `onInit` callback.
    * **Input Binding:** Extracts the `SMI` inputs (`_isChecking`, `_isHandsUp`) from the artboard so they can be modified dynamically.
    * **Listeners:** Implements `FocusNode` listeners inside `initState()` to detect exactly when the user enters or leaves the email and password fields, automatically adjusting the bear's posture.
+
+  
+</details>
 
 ---
 
@@ -86,6 +94,13 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 The beautiful animation used in this project was created by the talented community at Rive.
 
 * 🔗 **Original Animation Link:** [Remix of Login Machine REMIX]( https://rive.app/marketplace/3645-7621-remix-of-login-machine/)
-* 🧑‍🎨 **Details:** [dexterc](https://rive.app/@dexterc/)
+* 🧑‍🎨 **Author:** [dexterc](https://rive.app/@dexterc/)
+
+---
+## 👩‍💻 Developer
+
+**Flutter Implementation & Code:** Developed by **Amaris Celis**
+
+[![GitHub](https://img.shields.io/badge/GitHub-AmarisCelis-181717?style=flat-square&logo=github)](https://github.com/AmarisCelis)
 
 ---

@@ -5,7 +5,7 @@
 
 Welcome to the **Interactive Animated Login Screen**! This project transforms a standard, boring login form into an engaging and dynamic user experience. By integrating a reactive 2D character, the UI responds in real-time to the user's input, making the authentication process fun and highly interactive.
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🎓 Academic Context
 
@@ -13,7 +13,7 @@ Welcome to the **Interactive Animated Login Screen**! This project transforms a 
 * **Professor:** Rodrigo Fidel Gaxiola Sosa
 * **Project Type:** Interactive UI / Animation Implementation
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🚀 Key Functionalities
 
@@ -25,7 +25,7 @@ This application is designed to showcase how UI elements can seamlessly communic
 * 🧠 **Smart Focus Management:** Utilizing Flutter's `FocusNode` API, the application listens to which text field is currently active and immediately sends the corresponding boolean signals (`true` or `false`) to the animation's controller.
 * 🧹 **Resource Management:** Memory leaks are prevented by properly disposing of the `FocusNode` controllers when the screen is destroyed.
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🎨 What is Rive & What is a State Machine?
 
@@ -38,11 +38,17 @@ To understand how this magic happens, it is essential to know the core technolog
 A **State Machine** is essentially the "brain" of the animation. Instead of a single timeline, a State Machine contains multiple timelines (states) and rules (transitions) on how to move between them. 
 In this project, the State Machine is named `Login Machine`. It listens for specific **SMI (State Machine Inputs)** from our Flutter code:
 
-* `isChecking` (Boolean): Triggers the eye-tracking animation.
-* `isHandsUp` (Boolean): Triggers the hands-covering-eyes animation.
-* `trigSuccess` / `trigFail` (Triggers): Prepared inputs for future implementation to show a happy or sad reaction upon login attempt.
+### 🎛️ State Machine Inputs (SMI)
 
----
+| Input Name | Type | Action Triggered |
+| :--- | :---: | :--- |
+| `isChecking` | **Boolean** | 🕵️ Tracks typing and follows the cursor |
+| `isHandsUp` | **Boolean** | 🙈 Covers eyes for password privacy |
+| `trigSuccess` | **Trigger** | 🎉 Plays success animation (Ready for future implementation) |
+| `trigFail` | **Trigger** | 😔 Plays error animation (Ready for future implementation) |
+
+
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 💻 Technologies & Tools Used
 
@@ -50,7 +56,7 @@ In this project, the State Machine is named `Login Machine`. It listens for spec
 * 🎯 **Dart:** The object-oriented programming language used to write the Flutter logic.
 * 🎬 **Rive Flutter Package (`rive`):** The official runtime library used to load the `.riv` file, instantiate the `StateMachineController`, and pass inputs from the UI to the animation.
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 📂 Project Structure
 
@@ -64,8 +70,9 @@ The project maintains a clean and straightforward architecture. Here are the mai
 ### 📝 File Deep-Dive
 <details>
   <summary>🔍 <b>Click here for an in-depth explanation of the files</b></summary>
+  <br>
   
-1. **`lib/main.dart`**
+1. **1. `lib/main.dart`**
    * This is the entry point of the application.
    * It initializes the `MaterialApp`, sets up the global `ThemeData` (using a deep purple seed color), and defines `LoginScreen` as the home widget.
 
@@ -78,7 +85,17 @@ The project maintains a clean and straightforward architecture. Here are the mai
   
 </details>
 
----
+<p align="center">🐾 🐻 🐾 🐻 🐾 🐻 🐾</p>
+
+## 🛠️ How to wake up the bear (Quick Start)
+
+Want to run this project on your own machine? It's super easy!
+
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/AmarisCelis/login_with_rive_animacion_5sa_2026_1.git](https://github.com/AmarisCelis/login_with_rive_animacion_5sa_2026_1.git)
+
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🎬 Live Demo
 
@@ -87,7 +104,7 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 ![App Demo Example](demo.gif)
 
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🏆 Credits & Acknowledgments
 
@@ -96,11 +113,12 @@ The beautiful animation used in this project was created by the talented communi
 * 🔗 **Original Animation Link:** [Remix of Login Machine REMIX]( https://rive.app/marketplace/3645-7621-remix-of-login-machine/)
 * 🧑‍🎨 **Author:** [dexterc](https://rive.app/@dexterc/)
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
+
 ## 👩‍💻 Developer
 
 **Flutter Implementation & Code:** Developed by **Amaris Celis**
 
 [![GitHub](https://img.shields.io/badge/GitHub-AmarisCelis-181717?style=flat-square&logo=github)](https://github.com/AmarisCelis)
 
----
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>

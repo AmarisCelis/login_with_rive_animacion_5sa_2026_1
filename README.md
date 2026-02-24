@@ -93,7 +93,7 @@ Want to run this project on your own machine? It's super easy!
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/AmarisCelis/login_with_rive_animacion_5sa_2026_1.git](https://github.com/AmarisCelis/login_with_rive_animacion_5sa_2026_1.git)
+   git clone https://github.com/AmarisCelis/login_with_rive_animacion_5sa_2026_1.git
 
 <p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 

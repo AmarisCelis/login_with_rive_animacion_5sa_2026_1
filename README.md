@@ -107,17 +107,19 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 
 <p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
-### 🎨 Color Palette
+## 🐾 Interactive UX Behaviors
+The bear mascot isn't just a static image; it reacts to your journey through the login:
+* **Focus Detection:** The bear "wakes up" and follows your typing when you enter the Email field.
+* **Visual Privacy:** It protects your security by covering its eyes the moment you click on the Password field.
+* **State Persistence:** The animation state is managed dynamically, ensuring smooth transitions.
 
-I carefully selected these colors to match the bear's aesthetic and the Flutter Material 3 theme:
+## 🚀 Future Roadmap
+Even though the core logic is ready, I plan to implement:
+* **Success/Fail Triggers:** Connect the `trigSuccess` and `trigFail` inputs to actual backend validation.
+* **Custom Backgrounds:** Add dynamic backgrounds that change based on the time of day.
 
-| Color | Name | Hex Code |
-| :---: | :--- | :---: |
-| ![#6750A4](https://via.placeholder.com/15/6750A4/000000?text=+) | **Deep Purple (Primary)** | `#6750A4` |
-| ![#D0BCFF](https://via.placeholder.com/15/D0BCFF/000000?text=+) | **Light Purple (Accents)** | `#D0BCFF` |
-| ![#603813](https://via.placeholder.com/15/603813/000000?text=+) | **Bear Brown** | `#603813` |
-| ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) | **Background White** | `#FFFFFF` |
-
+## 💡 Project Insight
+This project was born from the desire to make the authentication process less robotic. Using **Rive** allowed me to create a bridge between design and functionality without the heavy weight of traditional video files.
 
 <p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 

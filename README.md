@@ -78,7 +78,6 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 
 ![App Demo Example](demo.gif)
 
-> 💡 **Tip:** Replace `demo_placeholder.gif` with the actual path to your repository's demo file.
 
 ---
 
@@ -86,7 +85,7 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 
 The beautiful animation used in this project was created by the talented community at Rive.
 
-* 🔗 **Original Animation Link:** [Animated Login Character on Rive Marketplace](https://rive.app/marketplace/2244-7248-animated-login-character/)
-* 🧑‍🎨 **Details:** Remix of login machine remix de Dexterc. All credits for the 2D rigging and state machine design go to the original creator.
+* 🔗 **Original Animation Link:** [Remix of Login Machine REMIX]( https://rive.app/marketplace/3645-7621-remix-of-login-machine/)
+* 🧑‍🎨 **Details:** [dexterc](https://rive.app/@dexterc/)
 
 ---

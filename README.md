@@ -76,8 +76,6 @@ The project maintains a clean and straightforward architecture. Here are the mai
 
 Below is a demonstration of the interactive login screen in action. Notice how the bear reacts instantly to the user's focus on different text fields!
 
-*(Insert your screen recording or GIF below)*
-
 ![App Demo Example](demo.gif)
 
 > 💡 **Tip:** Replace `demo_placeholder.gif` with the actual path to your repository's demo file.
@@ -93,4 +91,3 @@ The beautiful animation used in this project was created by the talented communi
 
 ---
 
-⭐️ *If you found this project interesting, feel free to explore the code and see how Flutter and Rive work together!*

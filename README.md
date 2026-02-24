@@ -103,9 +103,7 @@ Want to run this project on your own machine? It's super easy!
 
 Below is a demonstration of the interactive login screen in action. Notice how the bear reacts instantly to the user's focus on different text fields!
 
-<p align="center">
-  <img src="demo.gif" alt="App Demo Example" loop="infinite">
-</p>
+![App Demo Example](demo.gif)
 
 <p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 

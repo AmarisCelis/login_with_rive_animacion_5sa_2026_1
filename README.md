@@ -1,4 +1,6 @@
 # 🐻✨ Interactive Rive Animated Login Screen
+![Status](https://img.shields.io/badge/Status-In--Progress-yellow?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Flutter-blue?style=for-the-badge&logo=flutter)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Rive](https://img.shields.io/badge/Rive-Animation-black?style=for-the-badge)
@@ -103,12 +105,25 @@ Below is a demonstration of the interactive login screen in action. Notice how t
 
 ![App Demo Example](demo.gif)
 
+<p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
+
+### 🎨 Color Palette
+
+I carefully selected these colors to match the bear's aesthetic and the Flutter Material 3 theme:
+
+| Color | Name | Hex Code |
+| :---: | :--- | :---: |
+| ![#6750A4](https://via.placeholder.com/15/6750A4/000000?text=+) | **Deep Purple (Primary)** | `#6750A4` |
+| ![#D0BCFF](https://via.placeholder.com/15/D0BCFF/000000?text=+) | **Light Purple (Accents)** | `#D0BCFF` |
+| ![#603813](https://via.placeholder.com/15/603813/000000?text=+) | **Bear Brown** | `#603813` |
+| ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) | **Background White** | `#FFFFFF` |
+
 
 <p align="center">🐻 🐾 🐻 🐾 🐻 🐾 🐻 🐾 🐻</p>
 
 ## 🏆 Credits & Acknowledgments
 
-The beautiful animation used in this project was created by the talented community at Rive.
+La hermosa animación utilizada en este proyecto es un recurso de la **comunidad de Rive**.
 
 * 🔗 **Original Animation Link:** [Remix of Login Machine REMIX]( https://rive.app/marketplace/3645-7621-remix-of-login-machine/)
 * 🧑‍🎨 **Author:** [dexterc](https://rive.app/@dexterc/)
